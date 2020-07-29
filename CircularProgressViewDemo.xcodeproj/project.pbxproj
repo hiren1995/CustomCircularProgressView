@@ -13,6 +13,7 @@
 		1DDAB8D524D0527C00CBDDD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DDAB8D324D0527C00CBDDD6 /* Main.storyboard */; };
 		1DDAB8D724D0528000CBDDD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DDAB8D624D0528000CBDDD6 /* Assets.xcassets */; };
 		1DDAB8DA24D0528000CBDDD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DDAB8D824D0528000CBDDD6 /* LaunchScreen.storyboard */; };
+		1DDAB8E324D052AD00CBDDD6 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDAB8E224D052AD00CBDDD6 /* CircularProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1DDAB8D624D0528000CBDDD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DDAB8D924D0528000CBDDD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DDAB8DB24D0528000CBDDD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DDAB8E224D052AD00CBDDD6 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +61,21 @@
 				1DDAB8CD24D0527C00CBDDD6 /* AppDelegate.swift */,
 				1DDAB8CF24D0527C00CBDDD6 /* SceneDelegate.swift */,
 				1DDAB8D124D0527C00CBDDD6 /* ViewController.swift */,
+				1DDAB8E124D0528C00CBDDD6 /* Circular ProgressView */,
 				1DDAB8D324D0527C00CBDDD6 /* Main.storyboard */,
 				1DDAB8D624D0528000CBDDD6 /* Assets.xcassets */,
 				1DDAB8D824D0528000CBDDD6 /* LaunchScreen.storyboard */,
 				1DDAB8DB24D0528000CBDDD6 /* Info.plist */,
 			);
 			path = CircularProgressViewDemo;
+			sourceTree = "<group>";
+		};
+		1DDAB8E124D0528C00CBDDD6 /* Circular ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				1DDAB8E224D052AD00CBDDD6 /* CircularProgressView.swift */,
+			);
+			path = "Circular ProgressView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				1DDAB8D224D0527C00CBDDD6 /* ViewController.swift in Sources */,
 				1DDAB8CE24D0527C00CBDDD6 /* AppDelegate.swift in Sources */,
+				1DDAB8E324D052AD00CBDDD6 /* CircularProgressView.swift in Sources */,
 				1DDAB8D024D0527C00CBDDD6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
